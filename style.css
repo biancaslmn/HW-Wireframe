@@ -10,6 +10,7 @@ body
     background: #777;
     width: 960px;
     font-size: 18px;
+    margin: 0 auto;
 }
 
 
@@ -34,35 +35,49 @@ p
 {
 color: #777;
 background: #ebebeb;
+padding: 5px;
+margin-left: 20px;
 }
 
 header
 {
-    padding: 10px;
+    margin-top: 20px;
+    padding: 40px;
 }
 
-#nav
+nav
 {
-    padding:10px;
+    padding:40px;
 margin-top:10px;
 }
 
-#section
+section
 {
-    width: 495px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    width: 515px;
+    height: 310px;
     z-index: 1;
+    padding-left: 10px;
+    overflow: hidden;
 }
 
-#aside
+aside
 {
     float:right;
-    width: 495px;
-    height: 220px;
+    width: 430px;
+    height: 310px;
+    margin-top: 20px;
 }
 
-#article
+article
 {
+    margin-top: 20px;
+  padding-top: 20px;
+ padding-right: 20px;
     width: 495px;
+    height: 220px;
     z-index: 1;
     position: relative;
 }
@@ -79,9 +94,11 @@ margin-top:10px;
     width: 495px;
     z-index: 1;
     position: relative;
+   
 }
 
-#footer
+footer
 {
-padding: 10px;
+   width: 960px;
+padding: 40px;
 }
